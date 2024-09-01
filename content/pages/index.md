@@ -14,12 +14,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      About Vlenti
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Welcome to my page! These FLP's are a culmination of dedication and passion towards the art of music production over 6+ years. My goal is to deliver high-quality, minimal-cost music production that is accessible to anyone who wants to learn ideas, gain insight, or increase their production skills. I hope you find these projects useful!
     styles:
       self:
         height: auto
@@ -60,9 +57,10 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
+      - content/pages/projects/project-four.md
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/hiding.md
     styles:
       self:
         height: auto
@@ -84,7 +82,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: 'FLP Projects'
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f

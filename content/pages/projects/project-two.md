@@ -8,11 +8,11 @@ description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/bg4.webp
   altText: Project thumbnail image
 media:
-  type: ImageBlock
-  url: /images/bg2.jpg
+  type: VideoBlock
+  url: https://www.youtube.com/watch?v=MHjX_A7W4XU&t=92s
   altText: Project image
 ---
 

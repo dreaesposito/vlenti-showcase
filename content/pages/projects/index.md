@@ -1,6 +1,6 @@
 ---
 type: ProjectFeedLayout
-title: Projects
+title: FLP Projects
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
