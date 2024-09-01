@@ -57,10 +57,12 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-four.md
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
+      - content/pages/projects/save-me.md
+      - content/pages/projects/please-stay.md
+      - content/pages/projects/love-me-too.md
+      - content/pages/projects/in-control.md
       - content/pages/projects/hiding.md
+      - content/pages/projects/thinking-of-you.md
     styles:
       self:
         height: auto

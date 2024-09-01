@@ -1,24 +1,24 @@
 ---
 type: ProjectLayout
-title: '"Hiding"'
+title: '"Please Stay"'
 colors: colors-a
-date: '2024-08-23'
-# client: Awesome client
+date: '2024-08-16'
+#client: Awesome client
 description: >-
   Full-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/hiding.webp
+  url: /images/bg4.webp
   altText: Project thumbnail image
 media:
   type: VideoBlock
-  url: https://www.youtube.com/watch?v=L8OYQxbOZBE
+  url: https://www.youtube.com/watch?v=MHjX_A7W4XU&t=92s
   altText: Project image
 ---
 
-Price: $10
+Price: $15
 
-**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81141-d529-413d-a3f8-04306e847f4f)**
+**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81ebf-52c6-4402-abef-ded661151bdb)**
 
 **Includes**: FLP, all samples, presets, mastering/mixing, and vocal
 

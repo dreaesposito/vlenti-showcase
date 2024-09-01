@@ -1,24 +1,24 @@
 ---
 type: ProjectLayout
-title: '"Hiding"'
+title: '"In Control"'
 colors: colors-a
-date: '2024-08-23'
-# client: Awesome client
+date: '2022-01-22'
+client: Awesome client
 description: >-
-  Full-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
+  Partial-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/hiding.webp
+  url: /images/bg3.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock
-  url: https://www.youtube.com/watch?v=L8OYQxbOZBE
+  url: https://www.youtube.com/watch?v=MR1mn9ekG0k&t=1s
   altText: Project image
 ---
 
-Price: $10
+Price: $15
 
-**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81141-d529-413d-a3f8-04306e847f4f)**
+**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81e07-9b61-4718-8bc4-45adb47cbd69)**
 
 **Includes**: FLP, all samples, presets, mastering/mixing, and vocal
 
@@ -28,3 +28,4 @@ Price: $10
 - Serum + SerumFX (Version 1.363 or later)
 - OTT (free)
 - Valhalla supermassive (free)
+- Camelcrusher (free)

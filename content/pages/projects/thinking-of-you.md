@@ -1,24 +1,24 @@
 ---
 type: ProjectLayout
-title: '"Hiding"'
+title: '"Thinking of You"'
 colors: colors-a
-date: '2024-08-23'
-# client: Awesome client
+date: '2021-07-24'
+#client: Awesome client
 description: >-
-  Full-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
+  Partial-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/hiding.webp
+  url: /images/bg2.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock
-  url: https://www.youtube.com/watch?v=L8OYQxbOZBE
+  url: https://www.youtube.com/watch?v=guMLploJiK8
   altText: Project image
 ---
 
-Price: $10
+Price: $15
 
-**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81141-d529-413d-a3f8-04306e847f4f)**
+**[Link to purchase](https://buymeacoffee.com/vlentimusic/extras/checkout/9ce81923-ff62-4d7d-bdd6-fbfc76900df4)**
 
 **Includes**: FLP, all samples, presets, mastering/mixing, and vocal
 
