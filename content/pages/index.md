@@ -58,11 +58,11 @@ sections:
     variant: variant-b
     projects:
       - content/pages/projects/save-me.md
-      - content/pages/projects/please-stay.md
       - content/pages/projects/love-me-too.md
+      - content/pages/projects/please-stay.md
+      - content/pages/projects/thinking-of-you.md
       - content/pages/projects/in-control.md
       - content/pages/projects/hiding.md
-      - content/pages/projects/thinking-of-you.md
     styles:
       self:
         height: auto

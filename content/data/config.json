@@ -22,17 +22,17 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
+                "altText": "YouTube",
+                "label": "YouTube",
+                "url": "https://www.youtube.com/@vlentimusic",
                 "icon": "youtube"
             },
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "github"
+                "altText": "SoundCloud",
+                "label": "SoundCloud",
+                "url": "https://soundcloud.com/vlentimusic",
+                "icon": "soundcloud"
             }
         ],
         "styles": {
