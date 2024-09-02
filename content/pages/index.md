@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Vlenti Music
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -16,7 +16,7 @@ sections:
     title: >-
       About Vlenti
     subtitle: >-
-      Welcome to my page! These FLP's are a culmination of dedication and passion towards the art of music production over 6+ years. My goal is to deliver high-quality, minimal-cost music production that is accessible to anyone who wants to learn ideas, gain insight, or increase their production skills. I hope you find these projects useful!
+      Welcome to my page! These FLP's are the culmination of over 6 years of dedication and passion for the art of music production. My goal is to deliver high-quality, minimal-cost music production that is accessible to anyone who wants to learn ideas, gain insight, or increase their production skills. I hope you find these projects useful!
     styles:
       self:
         height: auto
