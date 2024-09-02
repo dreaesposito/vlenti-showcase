@@ -14,9 +14,10 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      About Vlenti
+      About the projects
     subtitle: >-
-      Welcome to my page! These FLP's are the culmination of over 6 years of dedication and passion for the art of music production. My goal is to deliver high-quality, minimal-cost music production that is accessible to anyone who wants to learn ideas, gain insight, or increase their production skills. I hope you find these projects useful!
+      These projects are created in FL Studio. They are the culmination of over 6 years of dedication and passion for the art of music production. 
+      Here, you can seamlessly browse through the FLP's that I've created. Each project is carefully developed to ensure quality and creativity, giving you access to fresh and inspiring sounds.
     styles:
       self:
         height: auto

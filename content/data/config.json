@@ -10,12 +10,7 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
+                "label": "All Projects",
                 "url": "/projects"
             }
         ],
@@ -69,7 +64,7 @@
             "email": "officialvalenti@gmail.com",
             "emailAltText": "My email"
         },
-        "copyrightText": "© All Rights Reserved.",
+        "copyrightText": "© Some Rights Reserved.",
         "styles": {
             "self": {
                 "width": "narrow",
