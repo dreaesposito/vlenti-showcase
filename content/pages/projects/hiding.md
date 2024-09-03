@@ -8,7 +8,7 @@ description: >-
   Full-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/hiding.webp
+  url: /images/hiding-blurred.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock

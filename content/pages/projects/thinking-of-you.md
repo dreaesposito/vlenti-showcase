@@ -8,7 +8,7 @@ description: >-
   Partial-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/thinking-of-you-blurred.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock

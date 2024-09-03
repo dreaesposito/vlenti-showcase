@@ -8,7 +8,7 @@ description: >-
   Partial-length FLP. Produced, mixed, and mastered using stock/free plugins and serum.
 featuredImage:
   type: ImageBlock
-  url: /images/save-me.webp
+  url: /images/save-me-blurred.png
   altText: Project thumbnail image
 media:
   type: VideoBlock
