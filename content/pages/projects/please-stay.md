@@ -14,6 +14,13 @@ media:
   type: VideoBlock
   url: https://www.youtube.com/watch?v=MHjX_A7W4XU&t=92s
   altText: Project image
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg1-test.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 60
 ---
 
 Price: $15
