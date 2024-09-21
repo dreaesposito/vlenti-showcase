@@ -74,5 +74,8 @@ const components = {
     PostLayout: dynamic(() => import('./layouts/PostLayout')),
     PostFeedLayout: dynamic(() => import('./layouts/PostFeedLayout')),
     ProjectLayout: dynamic(() => import('./layouts/ProjectLayout')),
-    ProjectFeedLayout: dynamic(() => import('./layouts/ProjectFeedLayout'))
+    ProjectFeedLayout: dynamic(() => import('./layouts/ProjectFeedLayout')),
+
+    // new addition
+    MusicPlayerLayout: dynamic(() => import('./layouts/MusicPlayerLayout'))
 };

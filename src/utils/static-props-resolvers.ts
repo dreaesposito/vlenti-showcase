@@ -9,7 +9,8 @@ import {
     RecentPostsSection,
     RecentProjectsSection,
     PostFeedLayout,
-    ProjectFeedLayout
+    ProjectFeedLayout,
+    MusicPlayerLayout
 } from '@/types';
 import { deepMapObject } from './data-utils';
 import { ConfigModel } from '.stackbit/models/Config';
@@ -71,6 +72,12 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
         return {
             ...(props as ProjectFeedLayout),
             items: allProjects
+        };
+    },
+    MusicPlayerLayout: (props, allData) => {
+        //const allProjects = getAllProjectsSorted(allData);
+        return {
+            ...props
         };
     },
     RecentProjectsSection: (props, allData) => {

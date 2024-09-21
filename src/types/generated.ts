@@ -1,10 +1,10 @@
 import { BaseContentObject } from './base';
 
 export type DataModelType = Config | Person | ThemeStyle;
-export type PageModelType = PageLayout | PostFeedLayout | PostLayout | ProjectFeedLayout | ProjectLayout;
+export type PageModelType = PageLayout | PostFeedLayout | PostLayout | ProjectFeedLayout | ProjectLayout | MusicPlayerLayout;
 
 export const DATA_MODEL_NAMES = ['Config', 'Person', 'ThemeStyle'];
-export const PAGE_MODEL_NAMES = ['PageLayout', 'PostFeedLayout', 'PostLayout', 'ProjectFeedLayout', 'ProjectLayout'];
+export const PAGE_MODEL_NAMES = ['PageLayout', 'PostFeedLayout', 'PostLayout', 'ProjectFeedLayout', 'ProjectLayout', 'MusicPlayerLayout'];
 
 export type SectionModels =
     | ContactSection
@@ -54,6 +54,7 @@ export type ContentObject =
     | ProjectFeedLayout
     | ProjectFeedSection
     | ProjectLayout
+    | MusicPlayerLayout
     | QuoteSection
     | RecentPostsSection
     | RecentProjectsSection
@@ -102,6 +103,7 @@ export type ContentObjectType =
     | 'ProjectFeedLayout'
     | 'ProjectFeedSection'
     | 'ProjectLayout'
+    | 'MusicPlayerLayout'
     | 'QuoteSection'
     | 'RecentPostsSection'
     | 'RecentProjectsSection'
@@ -547,6 +549,16 @@ export type ProjectLayout = BaseContentObject & {
     addTitleSuffix?: boolean;
     socialImage?: string;
     metaTags?: MetaTag[];
+    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
+    backgroundImage?: BackgroundImage;
+    markdownContent: string;
+};
+
+export type MusicPlayerLayout = BaseContentObject & {
+    type: 'MusicPlayerLayout';
+    // title?: string;
+    // elementId?: string;
+    // styles?: any;
     colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
     backgroundImage?: BackgroundImage;
     markdownContent: string;

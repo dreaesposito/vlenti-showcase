@@ -37,6 +37,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                                 <h1 className="md:max-w-2xl md:flex-grow">{title}</h1>
                             </div>
                         </header>
+                        {/* PLACE A BUTTON IN HERE AND SPECIFY THE LINK WITH ATTRIBUTE AT THE TOP???? */}
                         {description && <div className="text-xl leading-normal uppercase max-w-screen-md mx-auto mb-10 sm:mb-16">{description}</div>}
                         {media && (
                             <div className="mb-10 sm:mb-16">

@@ -12,6 +12,11 @@
                 "type": "Link",
                 "label": "All Projects",
                 "url": "/projects"
+            },
+            {
+                "type": "Link",
+                "label": "Archive",
+                "url": "/music"
             }
         ],
         "socialLinks": [

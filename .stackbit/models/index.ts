@@ -22,6 +22,7 @@ import { LinkModel } from './Link';
 import { MediaGallerySectionModel } from './MediaGallerySection';
 import { MetaTagModel } from './MetaTag';
 import { PageLayoutModel } from './PageLayout';
+import { MusicPlayerLayoutModel } from './MusicPlayerLayout';
 import { PersonModel } from './Person';
 import { PostFeedLayoutModel } from './PostFeedLayout';
 import { PostFeedSectionModel } from './PostFeedSection';
@@ -77,6 +78,7 @@ export const allModels = [
     ProjectFeedLayoutModel,
     ProjectFeedSectionModel,
     ProjectLayoutModel,
+    MusicPlayerLayoutModel,
     QuoteSectionModel,
     RecentPostsSectionModel,
     RecentProjectsSectionModel,
