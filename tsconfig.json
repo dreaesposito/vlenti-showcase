@@ -19,6 +19,6 @@
         },
         "baseUrl": "."
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/supabseClient.js"],
     "exclude": ["node_modules"]
 }

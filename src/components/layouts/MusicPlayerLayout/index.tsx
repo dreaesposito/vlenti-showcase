@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { PlayIcon, PauseIcon, BackwardIcon, ForwardIcon } from '@heroicons/react/24/solid';
+import { supabase } from '../../../supabseClient';
 
 import BaseLayout from '../BaseLayout';
 import { DynamicComponent } from '../../components-registry';
@@ -38,30 +39,30 @@ const Component: React.FC<ComponentProps> = (props) => {
 };
 export default Component;
 
-const songs = [
-    {
-        title: 'Missing (2024)',
-        artist: 'Vlenti',
-        src: '/music/missing.mp3'
-    },
-    {
-        title: 'Track2',
-        artist: 'Vlenti',
-        src: '/music/missing.mp3'
-    },
-    {
-        title: 'Track3',
-        artist: 'Vlenti',
-        src: '/music/missing.mp3'
-    }
-];
-
 const MusicPlayer = () => {
+    const [songs, setSongs] = useState([]); // State to hold songs fetched from Supabase
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [progress, setProgress] = useState(0);
     const audioRef = useRef(null);
     const progressRef = useRef(null); // Reference to the progress bar
+
+    // Fetch the songs from Supabase
+    useEffect(() => {
+        const fetchSongs = async () => {
+            try {
+                const { data, error } = await supabase.from('songs').select('*');
+
+                if (error) throw error;
+
+                setSongs(data);
+            } catch (error) {
+                console.error('Error fetching songs:', error);
+            }
+        };
+
+        fetchSongs();
+    }, []);
 
     const playPauseHandler = () => {
         if (isPlaying) {
@@ -123,10 +124,10 @@ const MusicPlayer = () => {
             {/* Music player */}
             <div className="bg-gradient-to-bl from-rose-300/50 to-gray-300/10 text-white p-6 rounded-lg shadow-md mx-auto mt-12">
                 <div className="text-center mb-6">
-                    <h3 className="font-semibold">{songs[currentSongIndex].title}</h3>
-                    <h5 className="text-md text-gray-400">{songs[currentSongIndex].artist}</h5>
+                    <h3 className="font-semibold">{songs[currentSongIndex]?.title}</h3>
+                    <h5 className="text-md text-gray-400">{songs[currentSongIndex]?.artist}</h5>
                 </div>
-                <audio ref={audioRef} src={songs[currentSongIndex].src} onTimeUpdate={updateProgress} onEnded={nextSongHandler}></audio>
+                <audio ref={audioRef} src={songs[currentSongIndex]?.file_url} onTimeUpdate={updateProgress} onEnded={nextSongHandler}></audio>
                 <div className="flex justify-center space-x-6 mb-6">
                     <button onClick={prevSongHandler} className="bg-gray-500 hover:bg-gray-600 text-white rounded-full px-4 py-2">
                         <BackwardIcon className="h-6 w-6" />
